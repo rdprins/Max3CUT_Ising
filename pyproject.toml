@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61","wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "max3cut_ising"
+version = "0.0.0"
+description = "Solving Max-3-Cut with an analog Ising machine using multiple formulations"
+authors = [{name="Robbe De Prins"}]
+requires-python = ">=3.8"
+dependencies = ["numpy","numba","pandas","scipy"]
